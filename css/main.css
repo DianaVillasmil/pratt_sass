@@ -5818,7 +5818,8 @@ button.close {
   background-color: #33485c;
   padding-top: 6%; }
   .seccion_uno h1, .seccion_uno h3 {
-    color: #fff; }
+    color: #fff;
+    text-align: center; }
 
 .seccion_dos {
   background-color: #f7f7f7;
@@ -5829,7 +5830,10 @@ button.close {
 
 .seccion_tres {
   background-color: #f7f7f7;
-  padding: 6%; }
+  padding: 2%; }
+  .seccion_tres .desktop {
+    width: 100%;
+    padding: 6%; }
 
 h1, h2, h4 {
   text-align: center; }
@@ -5840,7 +5844,8 @@ p {
   line-height: 30px; }
 
 @media (max-width: 600px) {
-  background-color: #33485c;
-  padding-top: 11%; }
+  .seccion_uno {
+    background-color: #33485c;
+    padding-top: 11%; } }
 
 /*# sourceMappingURL=main.css.map */
